@@ -50,3 +50,62 @@ O pipeline foi estruturado utilizando arquitetura medalhão, separando os dados 
 | Power BI | Visualização e construção do dashboard |
 | Google Sheets | Apoio na ingestão inicial dos dados |
 | Figma | Documentação visual da arquitetura |
+
+## Pipeline de Dados
+
+O projeto foi estruturado seguindo o conceito de arquitetura medalhão, separando os dados em diferentes níveis de maturidade analítica.
+
+### Bronze | Dados brutos
+
+Camada responsável pelo armazenamento dos dados originais sem transformações.
+
+Tabelas:
+- ravenstack_accounts
+- ravenstack_churn_events
+- ravenstack_feature_usage
+- ravenstack_subscriptions
+- ravenstack_support_tickets
+
+Principais objetivos:
+- Preservar dados originais
+- Garantir rastreabilidade
+- Centralizar ingestão
+
+---
+
+### Silver | Limpeza e padronização
+
+Camada responsável pela limpeza, padronização e tratamento dos dados.
+
+Transformações realizadas:
+- Padronização de colunas
+- Ajustes de tipos de dados
+- Tratamento de valores
+- Renomeação de campos
+- Consolidação de métricas intermediárias
+
+Tabelas:
+- silver_accounts
+- silver_churn_events
+- silver_feature_usage
+- silver_subscriptions
+- silver_support_tickets
+
+---
+
+### Gold | Camada analítica
+
+Camada final utilizada para consumo analítico e construção do dashboard.
+
+Tabela principal:
+- ravenstack_account_gold
+
+Métricas consolidadas:
+- Share de churn
+- Uso médio da plataforma
+- Tempo médio de utilização
+- Tickets por conta
+- Satisfação média
+- Tempo de vida da conta
+- Motivos de churn
+
