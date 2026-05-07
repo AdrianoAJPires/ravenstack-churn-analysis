@@ -152,3 +152,48 @@ Durante a análise, alguns padrões relevantes foram identificados:
 - Diferenças relevantes foram observadas entre países e segmentos de indústria
 
 A análise indica que fatores relacionados à experiência do usuário e engajamento possuem forte relação com retenção.
+
+## Aprendizados
+
+Durante o desenvolvimento do projeto, foi possível aprofundar conhecimentos em:
+
+- Estruturação de pipelines analíticos
+- Arquitetura medalhão
+- Transformações SQL no BigQuery
+- Modelagem para consumo analítico
+- Construção de dashboards executivos
+- Storytelling com dados
+- Criação de parâmetros dinâmicos no Power BI
+- Documentação de projetos para portfólio
+
+Além da parte técnica, o projeto também reforçou a importância de simplificar visualizações e priorizar clareza analítica na construção de dashboards.
+
+## Próximos Passos
+
+Possíveis evoluções futuras para o projeto:
+
+- Criação de análises de cohort e retenção
+- Inclusão de métricas temporais e tendências mensais
+- Publicação do dashboard no Power BI Service
+- Otimização de consultas no BigQuery
+- Expansão da modelagem analítica
+- Automatização da ingestão de dados
+
+  ## Estrutura do Projeto
+
+```text
+ravenstack-churn-analysis/
+│
+├── sql/
+│   ├── bronze/
+│   ├── silver/
+│   └── gold/
+│
+├── screenshots/
+│
+├── powerbi/
+│
+├── docs/
+│
+└── README.md
+```
