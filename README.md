@@ -109,3 +109,46 @@ Métricas consolidadas:
 - Tempo de vida da conta
 - Motivos de churn
 
+## Dashboard Analítico
+
+O dashboard foi desenvolvido com foco em análise executiva e identificação de padrões associados ao churn.
+
+A proposta visual foi manter uma interface limpa e objetiva, priorizando:
+- Clareza na leitura
+- Storytelling analítico
+- KPIs estratégicos
+- Comparações entre segmentos
+- Insights acionáveis
+
+### Principais indicadores
+
+- Taxa de churn
+- Tempo médio de atividade
+- Uso médio da plataforma
+- Satisfação média
+- Motivos de cancelamento
+- Comparações por plano, país e indústria
+
+### Recursos implementados
+
+- Parâmetros dinâmicos
+- Títulos dinâmicos
+- Insights automatizados via DAX
+- Navegação simplificada
+- Visual minimalista focado em análise
+
+### Dashboard principal
+
+![Dashboard Principal](screenshots/dashboard_principal.png)
+
+## Principais Insights
+
+Durante a análise, alguns padrões relevantes foram identificados:
+
+- Contas em período de trial apresentaram maior taxa de churn
+- Certos planos concentraram níveis mais elevados de cancelamento
+- Motivos relacionados a suporte e precificação apareceram com frequência nos churns
+- Contas com menor satisfação apresentaram tendência maior de cancelamento
+- Diferenças relevantes foram observadas entre países e segmentos de indústria
+
+A análise indica que fatores relacionados à experiência do usuário e engajamento possuem forte relação com retenção.
