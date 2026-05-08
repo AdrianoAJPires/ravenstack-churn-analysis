@@ -39,7 +39,7 @@ O pipeline foi estruturado utilizando arquitetura medalhão, separando os dados 
 
 ### Arquitetura visual
 
-![Arquitetura Medalhão](docs/arquitetura_medalhao.png)
+![Arquitetura Medalhão](Docs/arquitetura_medalhao.png)
 
 ## Stack Utilizada
 
