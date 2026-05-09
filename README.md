@@ -173,9 +173,7 @@ Além da parte técnica, o projeto também reforçou a importância de simplific
 Possíveis evoluções futuras para o projeto:
 
 - Criação de análises de cohort e retenção
-- Inclusão de métricas temporais e tendências mensais
 - Publicação do dashboard no Power BI Service
-- Otimização de consultas no BigQuery
 - Expansão da modelagem analítica
 - Automatização da ingestão de dados
 
