@@ -139,7 +139,7 @@ A proposta visual foi manter uma interface limpa e objetiva, priorizando:
 
 ### Dashboard principal
 
-![Dashboard RavenStack](Screenshots/dashboard_principal_v2.png)
+![Dashboard RavenStack](Screenshots/dashboard_principal.png)
 
 ## Principais Insights
 
